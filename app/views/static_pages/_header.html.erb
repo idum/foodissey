@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark py-5">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex w-50 " href="http://www.foodissey.it">Foodissey</a>
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+            <div class="nav navbar-nav  w-100 flex-grow-1 justify-content-end">
+                <%= link_to "Home", static_pages_home_path, class: "nav-link ms-3 me-2", 'aria-current': "page" %>
+                <%= link_to "Il Progetto", static_pages_project_path, class: "nav-link " %>
+                <%= link_to "Chi Siamo", static_pages_team_path, class: "nav-link ms-3 me-2" %>
+                <%= link_to "Blog", static_pages_blog_path, class: "nav-link ms-3 me-2" %>
+                <%= link_to "Shop", static_pages_shop_path, class: "nav-link ms-3 me-2" %>
+                <%= link_to "Regalistica Aziendale", static_pages_b2b_path, class: "nav-link " %>
+                <%= link_to "Login", '#', class: "nav-link " %>
+            </div>   
+            </div>
+    </div>
+</nav>
